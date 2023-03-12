@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+    <meta name="description" content="Descripción de la página">
+    <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- formulario -->
+
+        <form action="/procesar-formulario" method="post">
+
+            <!-- Registro -->
+            <fieldset>
+            <legend>Registro</legend>
+            <!-- Nombre -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <br>
+            <!-- Apellido -->
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required><br>
+            <br>
+            <!-- Fecha de nacimiento -->
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+            <br>
+            <!-- Correo electrónico -->
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br>
+            </fieldset>
+            
+            <br>
+
+            <!-- Datos Cuenta -->
+            <fieldset>
+            <legend>Datos cuenta de usuario:</legend>
+            <!-- Nombre usuario -->
+            <label for="nombre_usuario">Nombre de usuario:</label>
+            <input type="text" id="nombre_usuario" name="nombre_usuario" minlength="6" required><br>
+            <br>
+            <!-- Contraseña -->
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" minlength="8" required><br>
+            <br>
+            <!-- Confimación contraseña -->
+            <label for="confirmar_contrasena">Confirmar contraseña:</label>
+            <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" minlength="8" required><br>
+            </fieldset>
+        
+            <br>
+
+            <fieldset>
+            <legend>Otros datos:</legend>
+            <!-- País de residencia -->
+            <label for="país">País de residencia:</label>
+            <select id="país" name="país" required>
+                <option value="">Seleccione una opción</option>
+                <option value="Chile">Chile</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Perú">Perú</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+            </select><br>
+            <br>
+            
+            <!-- Opción Género -->
+            <label for="genero">Género:</label>
+            <label><input type="radio" name="genero" value="hombre" required> Hombre</label>
+            <label><input type="radio" name="genero" value="mujer"> Mujer</label>
+            <label><input type="radio" name="genero" value="otro"> Otro</label><br>
+            <br>
+            <!-- Aceptación de términos -->
+            <label><input type="checkbox" id="cbox" value="checkbox1"> Acepto los términos y condiciones</label>
+            </fieldset>
+            <br>
+        
+            <!-- Botón enviar -->
+            <button type="submit">Enviar formulario</button>
+        </form>
+</body>
+</html>
