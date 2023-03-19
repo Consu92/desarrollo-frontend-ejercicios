@@ -1,0 +1,87 @@
+/*Estilos título*/
+
+h1{
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    color: #224291;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+/**/
+
+/**/
+h2{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #224baf;
+    text-shadow: 0 1px 1px #fff;
+    margin: 10px 0;
+}
+
+/*Estilos tabla*/
+th{
+    color: #fff; 
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    height: 28px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 80px;
+    padding-top: 15px;
+    border-right: 1px solid;
+    background: #284fac;
+}
+
+.nombre-vapor,.nombre-microonda, .nombre-hervir{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif; 
+    color: black;
+    text-align: center;
+    
+}
+
+.nombre-verdura{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    color: #224baf;
+    background-color: #c6d0e5;
+    padding: 10px 6px;
+    text-align: center;
+}
+.columna-verdura{
+    padding: 15px 6px 15px 10px;
+}
+
+.columna-vapor{
+    padding: 15px 6px;
+}
+
+.columna-microonda{
+    padding: 15px 6px;
+}
+
+.columna-hervir{
+    padding: 15px 6px 15px 10px;
+}
+
+
+/*Estilos parrafos*/
+
+p{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/*Estilos lista*/
+
+ol{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
